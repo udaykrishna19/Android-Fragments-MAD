@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Student Marks" android:textStyle="bold"/>
+    <EditText android:id="@+id/etMarks" android:hint="Marks" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etTotal" android:hint="Total Marks" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etGrade" android:hint="Grade" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etStatus" android:hint="Status" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>
